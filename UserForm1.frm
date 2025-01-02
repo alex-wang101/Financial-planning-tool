@@ -79,7 +79,7 @@ Sub RetrieveData(startDate As Date, endDate As Date)
     ' Set the worksheets
     Set wsIncomes = ThisWorkbook.Sheets("Incomes")
     Set wsExpenses = ThisWorkbook.Sheets("Expenses")
-    Set wsOutput = ThisWorkbook.Sheets("Output") ' Change to your output sheet's name if necessary
+    Set wsOutput = ThisWorkbook.Sheets("Output")
 
     ' Clear the previous output (if any)
     wsOutput.Range("D2:M1000").ClearContents
@@ -123,12 +123,12 @@ Sub RetrieveData(startDate As Date, endDate As Date)
         On Error GoTo 0 ' Resume normal error handling
         If expenseDate >= startDate And expenseDate <= endDate Then
             ' Sum total expenses
-            totalExpenses = totalExpenses + wsExpenses.Cells(j, 2).Value ' Total Expense Value
+            totalExpenses = totalExpenses + wsExpenses.Cells(j, 2).Value 
             ' Output expense data to the output table
             wsOutput.Cells(outputRow, 13).Value = expenseDate ' Date
-            wsOutput.Cells(outputRow, 10).Value = wsExpenses.Cells(j, 2).Value ' Total Expense Value
-            wsOutput.Cells(outputRow, 11).Value = wsExpenses.Cells(j, 3).Value ' Category
-            wsOutput.Cells(outputRow, 12).Value = wsExpenses.Cells(j, 4).Value ' Description
+            wsOutput.Cells(outputRow, 10).Value = wsExpenses.Cells(j, 2).Value 
+            wsOutput.Cells(outputRow, 11).Value = wsExpenses.Cells(j, 3).Value 
+            wsOutput.Cells(outputRow, 12).Value = wsExpenses.Cells(j, 4).Value 
             outputRow = outputRow + 1
         End If
     Next j
