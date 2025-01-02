@@ -1,37 +1,54 @@
-# Financial planning tool
-## Overview of Project
+# Financial Planning Tool
 
-This project was created to portray my interest in managing personal finances through data management. This worksheet allows the user to add monthly income/expenses, ask for financial advice, as well as automatically sorting the income/expenses entered by the user. The tool is developed through the use of VBA (Visual Basic Applications), which includes advanced functionalities like custom UserForms and modularized VBA code. 
+This repository contains the source code and files for a financial planning tool built in Microsoft Excel, utilizing VBA (Visual Basic for Applications) to deliver a dynamic and interactive user experience.
 
-- **`.frm` Files**: These files define the structure and layout of the UserForms, including controls such as buttons, text boxes, and labels.
-- **`.frx` Files**: These files store binary data associated with the UserForms, including custom images, fonts, or formatting. 
+## Project Structure
 
-#### How to Import UserForms:
-1. Open Excel and press `Alt + F11` to open the VBA Editor.
-2. Right-click on the project in the **Project Explorer**.
-3. Select **Import File**.
-4. Choose the `.frm` file from the `userforms/` folder and import it into the project.
-5. The corresponding `.frx` file should be placed in the same directory to ensure all resources (e.g., images) are correctly linked.
+The repository is organized into three main types of files:
 
-### Modules Branch
-The **modules** branch contains all the exported VBA modules used in the tool. These modules contain the VBA code responsible for core functionality such as stock analysis, budgeting calculations, and other automation.
+### 1. UserForms (`.frm` and `.frx`)
+UserForms are custom graphical interfaces designed to make the application interactive and user-friendly. These forms allow users to input data, make selections, and view results.
 
-- **`.bas` Files**: These files contain the VBA code for specific modules used in the tool. You can import these files into your VBA project to reuse the code.
+- **`.frm` Files**: These are the plain text files containing the code and structure of the UserForms. They include the definitions for the controls (buttons, text boxes, dropdowns, etc.) and their associated event handlers.
+- **`.frx` Files**: These are binary files that store the visual design aspects of the UserForms, such as layout, control positioning, and graphical elements. They work alongside the `.frm` files to render the UserForms correctly in the application.
 
-#### How to Import VBA Modules:
-1. Open Excel and press `Alt + F11` to open the VBA Editor.
-2. Right-click on the project in the **Project Explorer**.
-3. Select **Import File**.
-4. Choose the `.bas` file from the `modules/` folder and import it into the project.
+UserForms in this repository:
+- `AddItemFormExpenses.frm/.frx`: For adding expense data.
+- `AddItemFormIncome.frm/.frx`: For adding income data.
+- `FinancialAdvice.frm/.frx`: For displaying financial advice.
+- `GoalsUserForm.frm/.frx`: For setting financial goals.
+- `OutputForm.frm/.frx`: For generating and displaying outputs.
+- `goalsForm.frm/.frx`: Another form for financial goal tracking.
+- `UserForm1.frm/.frx`: A generic UserForm for additional features.
 
----
+### 2. VBA Modules (`.bas`)
+VBA modules are files containing the backend logic written in Visual Basic for Applications. These modules handle the functionality of the tool, such as calculations, data processing, and dynamic updates.
 
-## How to Use the Financial Planning Tool
+Modules in this repository:
+- `ChartAndRefresh.bas`: Handles chart creation and refresh operations.
+- `ClearModule.bas`: Provides functionality to reset or clear data.
+- `CreateGraph.bas`: Includes logic for generating graphs based on financial data.
+- `HighlightAndGraph.bas`: Implements features to highlight important data and create visual graphs.
+- `ShowForm.bas`: Manages the display and navigation of UserForms.
 
-1. Download the `financial_tool.xlsm` file from the **main** branch.
-2. Enable macros in Excel to run the VBA code.
-3. Use the UserForms to input data and manage your financial portfolio.
-4. Use the stock analysis and budgeting features to track investments and plan your finances.
+### 3. Excel Workbook
+- **`Financial planning tool.xlsm`**: The main Excel file containing the tool. This file integrates all the VBA modules and UserForms, providing the interface for users to interact with the financial planning tool.
 
+## Features of the Tool
+1. **Expense Tracking**: Input, categorize, and analyze expenses using intuitive forms.
+2. **Income Management**: Track multiple sources of income efficiently.
+3. **Goal Setting**: Set financial goals and visualize progress.
+4. **Data Visualization**: Generate dynamic charts and graphs for better decision-making.
+5. **Financial Advice**: Receive suggestions based on input data to improve financial health.
 
+## Getting Started
+1. Download or clone this repository to your local machine.
+2. Open the `Financial planning tool.xlsm` file in Microsoft Excel.
+3. Enable macros to allow the tool to function properly.
+4. Start by navigating through the UserForms to input your data and explore features.
 
+## Notes
+- Ensure that `.frm` and `.frx` files are kept together to maintain the integrity of the UserForms.
+- The `.bas` files can be imported into the VBA editor under "Modules" to customize or review the logic.
+
+Feel free to reach out or create an issue for further questions or contributions.
