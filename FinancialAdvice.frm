@@ -44,7 +44,7 @@ Private Sub CommandButton1_Click()
         End If
     Next currentRow
 
-    ' Check if there is income for November
+    ' Check if income in November
     If novemberIncome > 0 Then
         ' Perform financial calculations
         savings = novemberIncome * 0.7
@@ -58,7 +58,7 @@ Private Sub CommandButton1_Click()
                "$" & Format(freeSpendings, "#,##0.00") & " should go into your free spendings", _
                vbInformation, "November Income Distribution"
     Else
-        ' Handle case where there is no November income
+        ' Handle for no November income
         MsgBox "No income data found for November in the table.", vbExclamation, "No Data"
     End If
 End Sub
@@ -78,11 +78,11 @@ Private Sub GoalTracking_Click()
     
     isOnTrack = True
     
-    ' Loop through each goal in column G to check the time required
+    ' Loop through each goal in column G 
     For row = 2 To ws.Cells(ws.Rows.Count, "G").End(xlUp).row
         goal = ws.Cells(row, 7).Value
         
-        ' Check if the goal time is in years and over 1 year
+        ' Check if the goal time 
         If InStr(goal, "years") > 0 Then
             startPos = InStr(goal, "It will take ") + Len("It will take ")
             endPos = InStr(goal, " years to reach this goal")
