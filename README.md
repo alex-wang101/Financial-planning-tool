@@ -1,4 +1,4 @@
-                                                  ![My_Financial_Planning_Tool](https://github.com/user-attachments/assets/8df59068-c5f7-47cb-8479-772feca50d4c)
+![My_Financial_Planning_Tool](https://github.com/user-attachments/assets/94993b43-238a-46aa-b56a-e3568bf092c9)
 
 
 
