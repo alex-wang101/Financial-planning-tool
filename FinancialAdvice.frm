@@ -25,7 +25,7 @@ Private Sub CommandButton1_Click()
     Dim freeSpendings As Double
     
     ' Set the worksheet containing the data
-    Set ws = ThisWorkbook.Sheets("Output") ' Replace "Output" with the actual sheet name if different
+    Set ws = ThisWorkbook.Sheets("Output") 
 
     ' Find the last row in column D (Date column)
     lastRow = ws.Cells(ws.Rows.Count, "D").End(xlUp).row
@@ -35,8 +35,8 @@ Private Sub CommandButton1_Click()
 
     ' Loop through all rows of data
     For currentRow = 2 To lastRow ' Assuming headers are in row 1
-        dateValue = ws.Cells(currentRow, "D").Value ' Column D contains the dates
-        incomeValue = ws.Cells(currentRow, "F").Value ' Column F contains the income values
+        dateValue = ws.Cells(currentRow, "D").Value 
+        incomeValue = ws.Cells(currentRow, "F").Value 
 
         ' Check if the date falls in November
         If Month(dateValue) = 11 Then
