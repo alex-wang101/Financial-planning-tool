@@ -119,7 +119,7 @@ Private Sub MonthlySpendingAdvice_Click()
     Set ws = ThisWorkbook.Sheets("Output")
 
     ' Set the IncomePivot table
-    Set incomePivot = ws.PivotTables("IncomePivot") ' Ensure the pivot table name matches
+    Set incomePivot = ws.PivotTables("IncomePivot") 
 
     ' Retrieve the November income using GetPivotData
     On Error Resume Next
