@@ -1,6 +1,7 @@
-# Financial Planning Tool
+![Financial_planning_tool](https://github.com/user-attachments/assets/272f7c1e-6e3e-41f0-a192-d9dca9b4d065)
 
-This repository contains the source code and files for a financial planning tool built in Microsoft Excel, utilizing VBA (Visual Basic for Applications) to deliver a dynamic and interactive user experience.
+
+This repository was created over the span of 3 months for the purposes of organizing my personal finances. I wanted to create something that not only creates contains the source code and files for a financial planning tool built in Microsoft Excel, utilizing VBA (Visual Basic for Applications) to deliver a dynamic and interactive user experience.
 
 ## Project Structure
 
