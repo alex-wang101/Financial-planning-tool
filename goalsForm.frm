@@ -22,21 +22,17 @@ Private Sub SubmitButton_Click()
     Dim totalExpenses As Double
     Dim netMonthlyIncome As Double
    
-    ' Set the worksheet where data will be stored
-    Set ws = ThisWorkbook.Sheets("Goals")
-    ' Set the worksheet where monthly income is stored
+    ' Set worksheets
+    Set ws = ThisWorkbook.Sheets("Goals")  
     Set incomeSheet = ThisWorkbook.Sheets("Incomes")
-    ' Set the worksheet where total expenses are stored
     Set expenseSheet = ThisWorkbook.Sheets("Expenses")
    
-    ' Get the monthly income from the specified cell
+    'Get income and expenses
     monthlyIncome = incomeSheet.Range("F2").Value
-    ' Get the total expenses from the specified cell
     totalExpenses = expenseSheet.Range("F2").Value
     ' Calculate net monthly income
     netMonthlyIncome = monthlyIncome - totalExpenses
 
-    ' Find the next empty row in column A
     Dim nextRow As Long
     nextRow = ws.Cells(ws.Rows.Count, "A").End(xlUp).row + 1
 
@@ -82,13 +78,13 @@ Private Sub SubmitButton_Click()
    
     Select Case Me.dropDownBox.Value
         Case "weeks"
-            weeksToSave = Me.MoneyToSaveTextBox.Value / (netMonthlyIncome / 4) ' Savings per week
+            weeksToSave = Me.MoneyToSaveTextBox.Value / (netMonthlyIncome / 4) 
             result = "It will take " & weeksToSave & " weeks to reach this goal"
         Case "months"
             weeksToSave = Me.MoneyToSaveTextBox.Value / netMonthlyIncome
             result = "It will take " & weeksToSave & " months to reach this goal"
         Case "years"
-            weeksToSave = Me.MoneyToSaveTextBox.Value / (netMonthlyIncome * 12) ' Savings per month over years
+            weeksToSave = Me.MoneyToSaveTextBox.Value / (netMonthlyIncome * 12) 
             result = "It will take " & weeksToSave & " years to reach this goal"
         Case Else
             result = "Invalid Unit"
