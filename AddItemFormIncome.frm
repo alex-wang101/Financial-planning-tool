@@ -32,15 +32,12 @@ Private Sub SubmitBtn_Click()
     'Start on second row (headers are first row)
     intRow = 2
 
-    'Test value of Item textbox
+    'Test value of item textbox
     If (txtItem.Value <> "") Then
         'Test value of date textboxes
         If (txtDay.Value <> "" And txtMonth.Value <> "" And txtYear.Value <> "") Then
-            'Test value of Category combobox
             If (cboxCategory.Value <> "") Then
-                'Test value of textValue textbox
                 If (textValue.Value <> "" And IsNumeric(textValue.Value)) Then
-                    'Go through rows, if they contain data, increment
                     Do While (ws.Cells(intRow, "A") <> "")
                         'Increment row counter
                         intRow = intRow + 1
@@ -58,10 +55,10 @@ Private Sub SubmitBtn_Click()
                     'Write description into cell
                     ws.Cells(intRow, "E") = txtDescription.Value
                     
-                    'Sort data by date
+                    'Sort by date
                     ws.Range("A2:E" & intRow).Sort Key1:=ws.Range("A2"), Order1:=xlAscending, Header:=xlNo
                     
-                    'Clear the userform fields
+                    'Clear userform fields
                     txtItem.Value = ""
                     txtDay.Value = ""
                     txtMonth.Value = ""
