@@ -3,11 +3,6 @@
 
 This project was created to portray my interest in managing personal finances through data management. This worksheet allows the user to add monthly income/expenses, ask for financial advice, as well as automatically sorting the income/expenses entered by the user. The tool is developed through the use of VBA (Visual Basic Applications), which includes advanced functionalities like custom UserForms and modularized VBA code. 
 
-## Repository Organizsation
-This repository is broken into three branches:
-## Main Branch
-The **main** branch contains the core Excel file (financial_tool.xlsm) that serves as the financial planning tool, along with the aesthetics of the entire project. This file includes macros and VBA code for the tool's functionality.
-
 - **`.frm` Files**: These files define the structure and layout of the UserForms, including controls such as buttons, text boxes, and labels.
 - **`.frx` Files**: These files store binary data associated with the UserForms, including custom images, fonts, or formatting. 
 
