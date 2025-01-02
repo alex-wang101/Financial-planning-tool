@@ -116,7 +116,7 @@ Private Sub MonthlySpendingAdvice_Click()
     Dim freeSpendings As Double
     
     ' Set the worksheet containing the pivot table
-    Set ws = ThisWorkbook.Sheets("Output") ' Adjust the sheet name if necessary
+    Set ws = ThisWorkbook.Sheets("Output")
 
     ' Set the IncomePivot table
     Set incomePivot = ws.PivotTables("IncomePivot") ' Ensure the pivot table name matches
