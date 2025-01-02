@@ -37,11 +37,11 @@ Private Sub SubmitBtn_Click()
         Exit Sub
     End If
     
-    ' Create the date variables
+    ' Create date variables
     startDate = DateSerial(startYear, startMonth, startDay)
     endDate = DateSerial(endYear, endMonth, endDay)
     
-    ' Check if the start date is before the end date
+    ' Check start date before the end date
     If startDate > endDate Then
         MsgBox "Start date cannot be later than the end date.", vbExclamation
         Exit Sub
@@ -88,7 +88,7 @@ Sub RetrieveData(startDate As Date, endDate As Date)
     incomeLastRow = wsIncomes.Cells(wsIncomes.Rows.Count, "A").End(xlUp).row
     expenseLastRow = wsExpenses.Cells(wsExpenses.Rows.Count, "A").End(xlUp).row
 
-    ' Initialize output row (where data will start being displayed)
+    ' Initialize output row 
     outputRow = 2
 
     ' Initialize totals
@@ -100,26 +100,24 @@ Sub RetrieveData(startDate As Date, endDate As Date)
         incomeDate = wsIncomes.Cells(i, 1).Value ' Assuming date is in column A
         If incomeDate >= startDate And incomeDate <= endDate Then
             ' Sum total income
-            totalIncome = totalIncome + wsIncomes.Cells(i, 2).Value ' Total Income Value
-            ' Output income data to the output table
+            totalIncome = totalIncome + wsIncomes.Cells(i, 2).Value 
             wsOutput.Cells(outputRow, 4).Value = incomeDate ' Date
-            wsOutput.Cells(outputRow, 6).Value = wsIncomes.Cells(i, 2).Value ' Total Income Value
-            wsOutput.Cells(outputRow, 7).Value = wsIncomes.Cells(i, 3).Value ' Category
-            wsOutput.Cells(outputRow, 8).Value = wsIncomes.Cells(i, 4).Value ' Description
+            wsOutput.Cells(outputRow, 6).Value = wsIncomes.Cells(i, 2).Value 
+            wsOutput.Cells(outputRow, 7).Value = wsIncomes.Cells(i, 3).Value 
+            wsOutput.Cells(outputRow, 8).Value = wsIncomes.Cells(i, 4).Value 
             outputRow = outputRow + 1
         End If
     Next i
 
-    ' Place total income in E2
+ 
     wsOutput.Cells(2, 5).Value = totalIncome
 
-    ' Reset output row for expenses
     outputRow = 2
 
     ' Loop through the Expenses sheet and filter by date
     For j = 2 To expenseLastRow
         On Error Resume Next ' Skip rows with invalid dates
-        expenseDate = CDate(wsExpenses.Cells(j, 1).Value) ' Convert to date
+        expenseDate = CDate(wsExpenses.Cells(j, 1).Value) 
         On Error GoTo 0 ' Resume normal error handling
         If expenseDate >= startDate And expenseDate <= endDate Then
             ' Sum total expenses
