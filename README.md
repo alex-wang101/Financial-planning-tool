@@ -16,8 +16,8 @@ UserForms are custom graphical interfaces designed to make the application inter
 - **`.frx` Files**: These are binary files that store the visual design aspects of the UserForms, such as layout, control positioning, and graphical elements. They work alongside the `.frm` files to render the UserForms correctly in the application.
 
 Features in UserForms:
-- Manually adding expense data through inputting information in userform 'AddItemFormExpenses.frm/.frx'.
-  
+- Manually adding expense data through inputting information in userform `AddItemFormExpenses.frm/.frx`.
+<img width="499" alt="image" src="https://github.com/user-attachments/assets/5d4ea8f9-8e68-49b4-9cf6-37e11ab8bba4" />
 - Manually adding income data through inputting iformation in userform `AddItemFormIncome.frm/.frx`.
   <img width="649" alt="image" src="https://github.com/user-attachments/assets/35efc039-5ade-42be-becf-ad29d70cfb12" />
 - `FinancialAdvice.frm/.frx`: For displaying financial advice.
