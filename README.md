@@ -33,27 +33,27 @@ UserForms are custom graphical interfaces designed to make the application inter
 
 + Setting goals?
   - Click on the button `Goals` to reveal userform: `GoalsUserForm.frm/.frx`.
-<img width="100" alt="image" src="https://github.com/user-attachments/assets/ab880136-335f-43d3-9a74-afae579842f6" />
+<img width="150" alt="image" src="https://github.com/user-attachments/assets/ab880136-335f-43d3-9a74-afae579842f6" />
 <img width="300" alt="image" src="https://github.com/user-attachments/assets/aafe6211-e170-4453-b510-c650ef79a3c8" />
 
 + Output Income/Expenses data onto dashboard?
   - Click on the button `Output info' to reveal userform: `OutputForm.frm/.frx`.
-<img width="100" alt="image" src="https://github.com/user-attachments/assets/f59bb620-f33c-4817-8dbc-6a1593a19b09" />
+<img width="150" alt="image" src="https://github.com/user-attachments/assets/f59bb620-f33c-4817-8dbc-6a1593a19b09" />
 <img width="401" alt="image" src="https://github.com/user-attachments/assets/bb56b7c1-bbe8-4af9-b784-eb5062d6254d" />
   
 + Visualize income distribution?
   - Click on button `Show Income Distribution` to produce a bar chart
-<img width="100" alt="image" src="https://github.com/user-attachments/assets/b8c1920d-e504-4d19-a770-a512c1e6c66b" />
+<img width="150" alt="image" src="https://github.com/user-attachments/assets/b8c1920d-e504-4d19-a770-a512c1e6c66b" />
 <img width="300" alt="image" src="https://github.com/user-attachments/assets/b683e654-5a98-42b2-bcee-374742b355fe" />
 
 + Visualize expense distribution?
   - CLick on button `Show Expenses Distribution` to produce a bar chart
-<img width="100" alt="image" src="https://github.com/user-attachments/assets/21d4e619-0202-4427-9710-ff461ee2a793" />
+<img width="150" alt="image" src="https://github.com/user-attachments/assets/21d4e619-0202-4427-9710-ff461ee2a793" />
 <img width="300" alt="image" src="https://github.com/user-attachments/assets/e5ada7a9-1efa-4fbe-a842-d15f5a46b290" />
 
 + Highlight max/min values?
   - Click on Button `Highlight extreme data`
-<img width="100" alt="image" src="https://github.com/user-attachments/assets/93286e26-7632-4aca-99c2-5ab54ac3b466" />
+<img width="150" alt="image" src="https://github.com/user-attachments/assets/93286e26-7632-4aca-99c2-5ab54ac3b466" />
 <img width="300" alt="image" src="https://github.com/user-attachments/assets/22e837ce-8c26-4564-8325-1792e1e6dd86" />
 
 
