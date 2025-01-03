@@ -48,12 +48,12 @@ UserForms are custom graphical interfaces designed to make the application inter
 
 + Visualize expense distribution?
   - CLick on button `Show Expenses Distribution` to produce a bar chart
-<img width="150" alt="image" src="https://github.com/user-attachments/assets/21d4e619-0202-4427-9710-ff461ee2a793" />
+<img width="200" alt="image" src="https://github.com/user-attachments/assets/21d4e619-0202-4427-9710-ff461ee2a793" />
 <img width="300" alt="image" src="https://github.com/user-attachments/assets/e5ada7a9-1efa-4fbe-a842-d15f5a46b290" />
 
 + Highlight max/min values?
   - Click on Button `Highlight extreme data`
-<img width="150" alt="image" src="https://github.com/user-attachments/assets/93286e26-7632-4aca-99c2-5ab54ac3b466" />
+<img width="200" alt="image" src="https://github.com/user-attachments/assets/93286e26-7632-4aca-99c2-5ab54ac3b466" />
 <img width="300" alt="image" src="https://github.com/user-attachments/assets/22e837ce-8c26-4564-8325-1792e1e6dd86" />
 
 
