@@ -1,4 +1,3 @@
-# Welcome to my Financial Planner!
 ![Alex's Financial_Planner](https://github.com/user-attachments/assets/4b67d23b-2125-48bd-9a25-71df600eae7d)
 
 
