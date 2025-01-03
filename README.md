@@ -31,7 +31,11 @@ Features through UserForms:
 <img width="130" alt="image" src="https://github.com/user-attachments/assets/c17c81db-708c-485a-8126-f3528156ba3f" />
 <img width="449" alt="image" src="https://github.com/user-attachments/assets/000d4424-5fb0-46e5-8f46-81f06e5d3677" />
 
-- `GoalsUserForm.frm/.frx`: For setting financial goals.
++ Want to set goals?
+  - Click on the button `Goals` to reveal userform: `GoalsUserForm.frm/.frx`: For setting financial goals.
+![image](https://github.com/user-attachments/assets/05a99fd1-e2ea-4099-82c2-9b0997f55e61)
+![image](https://github.com/user-attachments/assets/66855d47-ca6a-4925-9fe6-19e2209e04c2)
+
 - `OutputForm.frm/.frx`: For generating and displaying outputs.
 - `goalsForm.frm/.frx`: Another form for financial goal tracking.
 - `UserForm1.frm/.frx`: A generic UserForm for additional features.
