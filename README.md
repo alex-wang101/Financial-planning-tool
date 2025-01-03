@@ -16,13 +16,15 @@ UserForms are custom graphical interfaces designed to make the application inter
 - **`.frx` Files**: These are binary files that store the visual design aspects of the UserForms, such as layout, control positioning, and graphical elements. They work alongside the `.frm` files to render the UserForms correctly in the application.
 
 Features through UserForms:
-- Adding expenses?
-  + Click on userfrom: `AddItemFormExpenses.frm/.frx`.
++ Adding expenses?
+  - Click on `Add Expenses` button to reveal userform: `AddItemFormExpenses.frm/.frx`.
 <img width="100" alt="image" src="https://github.com/user-attachments/assets/a9891ebc-7b3b-4106-a733-70ec6da54818" />
 <img width="300" alt="image" src="https://github.com/user-attachments/assets/5d4ea8f9-8e68-49b4-9cf6-37e11ab8bba4" />
 
-- Manually adding income data through inputting iformation in userform `AddItemFormIncome.frm/.frx`.
-<img width="649" alt="image" src="https://github.com/user-attachments/assets/35efc039-5ade-42be-becf-ad29d70cfb12" />
++ Adding Income? 
+  - Click on `Add Income` button to reclea userform: `AddItemFormIncome.frm/.frx`.
+<img width="102" alt="image" src="https://github.com/user-attachments/assets/e0e116f2-e2b6-4aec-952a-28e544472f8b" />
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/35efc039-5ade-42be-becf-ad29d70cfb12" />
   
 - Gives advice for net income and track goals distribution in userform `FinancialAdvice.frm/.frx`.
 <img width="449" alt="image" src="https://github.com/user-attachments/assets/000d4424-5fb0-46e5-8f46-81f06e5d3677" />
