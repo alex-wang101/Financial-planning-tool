@@ -1,3 +1,4 @@
+# Welcome to my Financial Planner!
 ![Alex's Financial_Planner](https://github.com/user-attachments/assets/4b67d23b-2125-48bd-9a25-71df600eae7d)
 
 
@@ -9,7 +10,7 @@ This repository was created over the span of 3 months for the purposes of organi
 
 The repository is organized into three main types of files:
 
-##1. UserForms (`.frm` and `.frx`)
+## 1. UserForms (`.frm` and `.frx`)
 UserForms are custom graphical interfaces designed to make the application interactive and user-friendly. These forms allow users to input data, make selections, and view results.
 
 - **`.frm` Files**: These are the plain text files containing the code and structure of the UserForms. They include the definitions for the controls (buttons, text boxes, dropdowns, etc.) and their associated event handlers.
