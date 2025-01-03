@@ -1,8 +1,9 @@
-![My_Financial_Planning_Tool](https://github.com/user-attachments/assets/94993b43-238a-46aa-b56a-e3568bf092c9)
+![Alex's Financial_Planner](https://github.com/user-attachments/assets/4b67d23b-2125-48bd-9a25-71df600eae7d)
 
 
 
-This repository was created over the span of 3 months for the purposes of organizing my personal finances. I wanted to create something that not only creates contains the source code and files for a financial planning tool built in Microsoft Excel, utilizing VBA (Visual Basic for Applications) to deliver a dynamic and interactive user experience.
+
+This repository was created over the span of 3 months for the purposes of organizing my personal finances. This project organizes personal finances but also illustrates personal interest and knowledge in excel. The following files contains the source code and files for a financial planning tool built in Microsoft Excel, utilizing VBA (Visual Basic for Applications) to deliver a dynamic and interactive user experience.
 
 ## Project Structure
 
@@ -14,9 +15,11 @@ UserForms are custom graphical interfaces designed to make the application inter
 - **`.frm` Files**: These are the plain text files containing the code and structure of the UserForms. They include the definitions for the controls (buttons, text boxes, dropdowns, etc.) and their associated event handlers.
 - **`.frx` Files**: These are binary files that store the visual design aspects of the UserForms, such as layout, control positioning, and graphical elements. They work alongside the `.frm` files to render the UserForms correctly in the application.
 
-UserForms in this repository:
-- `AddItemFormExpenses.frm/.frx`: For adding expense data.
-- `AddItemFormIncome.frm/.frx`: For adding income data.
+Features in UserForms:
+- Manually adding expense data through inputting information in userform 'AddItemFormExpenses.frm/.frx'.
+  
+- Manually adding income data through inputting iformation in userform `AddItemFormIncome.frm/.frx`.
+  <img width="649" alt="image" src="https://github.com/user-attachments/assets/35efc039-5ade-42be-becf-ad29d70cfb12" />
 - `FinancialAdvice.frm/.frx`: For displaying financial advice.
 - `GoalsUserForm.frm/.frx`: For setting financial goals.
 - `OutputForm.frm/.frx`: For generating and displaying outputs.
