@@ -15,7 +15,7 @@ UserForms are custom graphical interfaces designed to make the application inter
 - **`.frm` Files**: These are the plain text files containing the code and structure of the UserForms. They include the definitions for the controls (buttons, text boxes, dropdowns, etc.) and their associated event handlers.
 - **`.frx` Files**: These are binary files that store the visual design aspects of the UserForms, such as layout, control positioning, and graphical elements. They work alongside the `.frm` files to render the UserForms correctly in the application.
 
-## Features through UserForms:
+## General Features and Features Through UserForms:
 + Adding expenses?
   - Click on `Add Expenses` button to reveal userform: `AddItemFormExpenses.frm/.frx`.
 <img width="100" alt="image" src="https://github.com/user-attachments/assets/a9891ebc-7b3b-4106-a733-70ec6da54818" />
