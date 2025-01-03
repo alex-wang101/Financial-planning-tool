@@ -22,11 +22,13 @@ Features through UserForms:
 <img width="300" alt="image" src="https://github.com/user-attachments/assets/5d4ea8f9-8e68-49b4-9cf6-37e11ab8bba4" />
 
 + Adding Income? 
-  - Click on `Add Income` button to reclea userform: `AddItemFormIncome.frm/.frx`.
+  - Click on `Add Income` button to reveal userform: `AddItemFormIncome.frm/.frx`.
 <img width="102" alt="image" src="https://github.com/user-attachments/assets/e0e116f2-e2b6-4aec-952a-28e544472f8b" />
 <img width="300" alt="image" src="https://github.com/user-attachments/assets/35efc039-5ade-42be-becf-ad29d70cfb12" />
   
-- Gives advice for net income and track goals distribution in userform `FinancialAdvice.frm/.frx`.
++ Want financial advice?
+  - Click on the button `Financial Advice` to reveal userform: `FinancialAdvice.frm/.frx`.
+<img width="130" alt="image" src="https://github.com/user-attachments/assets/c17c81db-708c-485a-8126-f3528156ba3f" />
 <img width="449" alt="image" src="https://github.com/user-attachments/assets/000d4424-5fb0-46e5-8f46-81f06e5d3677" />
 
 - `GoalsUserForm.frm/.frx`: For setting financial goals.
