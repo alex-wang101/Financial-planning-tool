@@ -26,30 +26,35 @@ Features through UserForms:
 <img width="102" alt="image" src="https://github.com/user-attachments/assets/e0e116f2-e2b6-4aec-952a-28e544472f8b" />
 <img width="300" alt="image" src="https://github.com/user-attachments/assets/35efc039-5ade-42be-becf-ad29d70cfb12" />
   
-+ Want financial advice?
++ Financial advice?
   - Click on the button `Financial Advice` to reveal userform: `FinancialAdvice.frm/.frx`.
 <img width="130" alt="image" src="https://github.com/user-attachments/assets/c17c81db-708c-485a-8126-f3528156ba3f" />
 <img width="449" alt="image" src="https://github.com/user-attachments/assets/000d4424-5fb0-46e5-8f46-81f06e5d3677" />
 
-+ Want to set goals?
++ Setting goals?
   - Click on the button `Goals` to reveal userform: `GoalsUserForm.frm/.frx`.
 <img width="100" alt="image" src="https://github.com/user-attachments/assets/ab880136-335f-43d3-9a74-afae579842f6" />
 <img width="300" alt="image" src="https://github.com/user-attachments/assets/aafe6211-e170-4453-b510-c650ef79a3c8" />
 
-+ Want to output Income/Expenses data onto dashboard?
++ Output Income/Expenses data onto dashboard?
   - Click on the button `Output info' to reveal userform: `OutputForm.frm/.frx`.
 <img width="100" alt="image" src="https://github.com/user-attachments/assets/f59bb620-f33c-4817-8dbc-6a1593a19b09" />
 <img width="401" alt="image" src="https://github.com/user-attachments/assets/bb56b7c1-bbe8-4af9-b784-eb5062d6254d" />
   
-+ Want to visualize income distribution?
++ Visualize income distribution?
   - Click on button `Show Income Distribution` to produce a bar chart
 <img width="100" alt="image" src="https://github.com/user-attachments/assets/b8c1920d-e504-4d19-a770-a512c1e6c66b" />
 <img width="300" alt="image" src="https://github.com/user-attachments/assets/b683e654-5a98-42b2-bcee-374742b355fe" />
 
-+ Want to visualize expense distribution?
++ Visualize expense distribution?
   - CLick on button `Show Expenses Distribution` to produce a bar chart
 <img width="100" alt="image" src="https://github.com/user-attachments/assets/21d4e619-0202-4427-9710-ff461ee2a793" />
 <img width="300" alt="image" src="https://github.com/user-attachments/assets/e5ada7a9-1efa-4fbe-a842-d15f5a46b290" />
+
++ Highlight max/min values?
+  - Click on Button `Highlight extreme data`
+<img width="100" alt="image" src="https://github.com/user-attachments/assets/93286e26-7632-4aca-99c2-5ab54ac3b466" />
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/22e837ce-8c26-4564-8325-1792e1e6dd86" />
 
 
 ### 2. VBA Modules (`.bas`)
