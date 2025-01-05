@@ -5,17 +5,7 @@
 
 This repository was created over the span of 3 months for the purposes of organizing my personal finances. This project organizes personal finances but also illustrates personal interest and knowledge in excel. The following files contains the source code and files for a financial planning tool built in Microsoft Excel, utilizing VBA (Visual Basic for Applications) to deliver a dynamic and interactive user experience.
 
-# Project Structure
-
-The repository is organized into three main types of files:
-
-## 1. UserForms (`.frm` and `.frx`)
-UserForms are custom graphical interfaces designed to make the application interactive and user-friendly. These forms allow users to input data, make selections, and view results.
-
-- **`.frm` Files**: These are the plain text files containing the code and structure of the UserForms. They include the definitions for the controls (buttons, text boxes, dropdowns, etc.) and their associated event handlers.
-- **`.frx` Files**: These are binary files that store the visual design aspects of the UserForms, such as layout, control positioning, and graphical elements. They work alongside the `.frm` files to render the UserForms correctly in the application.
-
-## General Features and Features Through UserForms:
+## General Features:
 + Adding expenses?
   - Click on `Add Expenses` button to reveal userform: `AddItemFormExpenses.frm/.frx`.
 <img width="100" alt="image" src="https://github.com/user-attachments/assets/a9891ebc-7b3b-4106-a733-70ec6da54818" />
@@ -56,8 +46,18 @@ UserForms are custom graphical interfaces designed to make the application inter
 <img width="200" alt="image" src="https://github.com/user-attachments/assets/93286e26-7632-4aca-99c2-5ab54ac3b466" />
 <img width="300" alt="image" src="https://github.com/user-attachments/assets/22e837ce-8c26-4564-8325-1792e1e6dd86" />
 
+# Project Structure
 
-## Modules in this repository:
+The repository is organized into three main types of files:
+
+## 1. UserForms (`.frm` and `.frx`)
+UserForms are custom graphical interfaces designed to make the application interactive and user-friendly. These forms allow users to input data, make selections, and view results.
+
+- **`.frm` Files**: These are the plain text files containing the code and structure of the UserForms. They include the definitions for the controls (buttons, text boxes, dropdowns, etc.) and their associated event handlers.
+- **`.frx` Files**: These are binary files that store the visual design aspects of the UserForms, such as layout, control positioning, and graphical elements. They work alongside the `.frm` files to render the UserForms correctly in the application.
+
+
+## 2. Modules (.bas):
 - `ChartAndRefresh.bas`: Handles chart creation and refresh operations.
 - `ClearModule.bas`: Provides functionality to reset or clear data.
 - `CreateGraph.bas`: Includes logic for generating graphs based on financial data.
