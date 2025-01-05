@@ -5,7 +5,7 @@
 
 This repository was created over the span of 3 months for the purposes of organizing my personal finances. This project organizes personal finances but also illustrates personal interest and knowledge in excel. The following files contains the source code and files for a financial planning tool built in Microsoft Excel, utilizing VBA (Visual Basic for Applications) to deliver a dynamic and interactive user experience.
 
-## General Features:
+# General Features:
 + Adding expenses?
   - Click on `Add Expenses` button to reveal userform: `AddItemFormExpenses.frm/.frx`.
 <img width="100" alt="image" src="https://github.com/user-attachments/assets/a9891ebc-7b3b-4106-a733-70ec6da54818" />
